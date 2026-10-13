@@ -1,0 +1,64 @@
+body {
+
+    background-color: rgba(20, 104, 76, 0.705);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+
+
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+}
+
+
+.container-login {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 80vh;
+
+}
+
+.box-login {
+
+        height: 40vh;
+        width: 30%;
+        background-color: gray;
+        border-radius: 15px;
+      
+        text-align: center;
+
+   
+}
+
+
+.titulos {
+
+    color: white;
+   
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitulos {
+
+    color: white;
+    font-weight: bold;
+
+}
+.campos {
+
+   margin-top: 20px;
+   margin-bottom: 10px;
+   height: 30px;
+   width: 40%;
+}
